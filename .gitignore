@@ -1,3 +1,19 @@
 .idea
 .env
+.env.local
+.env.*.local
 dev
+.venv
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+
+# Local data files containing candidate profiles, tracker records, and sent logs
+data/*.json
+data/*.bak
+data/*.bak.*
+data/*.tmp
+data/*.lock
+data_backup*/
+!data/.gitkeep
